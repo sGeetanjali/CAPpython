@@ -1,0 +1,155 @@
+Python 3.6.6 (v3.6.6:4cf1f54eb7, Jun 27 2018, 03:37:03) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a=10
+>>> a
+10
+>>> M=10
+>>> type(M)
+<class 'int'>
+>>> M='20'
+>>> type(M)
+<class 'str'>
+>>> 1M=10
+  File "<stdin>", line 1
+    1M=10
+     ^
+SyntaxError: invalid syntax
+>>> uM=10
+>>> uM
+10
+>>> _yu=9
+>>> _yu
+9
+>>> a+b
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'b' is not defined
+>>> 'a'+'b'
+'ab'
+>>> type(int)
+<class 'type'>
+>>> type(type(int))
+<class 'type'>
+>>> 56+8
+64
+>>> 7/7.8
+0.8974358974358975
+>>> 7//7.8
+0.0
+>>> 7/7.8
+0.8974358974358975
+>>>
+>>> False=True
+  File "<stdin>", line 1
+SyntaxError: can't assign to keyword
+>>> True=False
+  File "<stdin>", line 1
+SyntaxError: can't assign to keyword
+>>> True=True
+  File "<stdin>", line 1
+SyntaxError: can't assign to keyword
+>>> False=False
+  File "<stdin>", line 1
+SyntaxError: can't assign to keyword
+>>>
+>>> not True
+False
+>>> 1==1
+True
+>>> 2*3==5
+False
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> 1 !=1
+False
+>>> 2*3 !=5
+True
+>>> 1 < 10
+True
+>>> 2 >=0
+True
+>>> 1 < 2 <3
+True
+>>> 1 < 2 >=3
+False
+>>> a= 'hello'
+>>> b ="world"
+>>>
+>>> a  + '  ' + b + '!'
+'hello  world!'
+>>> a= "amjali"
+>>> a= "anjali"
+>>> str[0]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'type' object is not subscriptable
+>>> a[0]
+'a'
+>>> a[1]
+'n'
+>>> a[2]
+'j'
+>>> a[3]
+'a'
+>>> a[4]
+'l'
+>>> a[5]
+'i'
+>>> a[6]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: string index out of range
+>>> a[-1]
+'i'
+>>> a[-2]
+'l'
+>>> a[-3]
+'a'
+>>> a[-4]
+'j'
+>>> a[-5]
+'n'
+>>> a[-6]
+'a'
+>>> a[-0]
+'a'
+>>> a[0]
+'a'
+>>>IndexError: string index out of range
+>>> a[-1]
+'i'
+>>> a[-2]
+'l'
+>>> a[-3]
+'a'
+>>> a[-4]
+'j'
+>>> a[-5]
+'n'
+>>> a[-6]
+'a'
+>>> a[-0]
+'a'
+>>> a[0]
+'a'
+>>> a[0:2]
+'an'
+>>> a[3:6]
+'ali'
+>>> a[0:2]
+'an'
+>>> a[0:3]
+'anj'
+>>> a[3:6]
+'ali'
+>>> a[:2]
+'an'
+>>> a[3:]
+'ali'
+>>> a[1:5:2]
+'na'
+>>>
