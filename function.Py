@@ -44,7 +44,7 @@ def is_prime(n):
     
 n =input("enter a no: ")
 for x in range(2, int(n)):
-    if is_prime(x):
-        print(x,"is prime")
-    else:
-        print(x,"not prime")
+     if is_prime(x):
+         print(x,"is prime")
+     else:
+         print(x,"not prime")
